@@ -53,14 +53,11 @@ public class MyfirstProjectTestsRobotium extends ActivityInstrumentationTestCase
 	
 	public void testWhenUnameAndPassFilledLandscapeInside() {
 		solo.typeText(0, "andhika.ventausa@gdpventure.com");
-		solo.sleep(2000);
 		solo.typeText(1,"password");
 		solo.clickOnButton("login");
 		solo.setActivityOrientation(Solo.LANDSCAPE);
 		solo.scrollDown();
-		solo.sleep(2000);
 		solo.scrollDown();
-		solo.sleep(2000);
 		solo.clickInList(5);
 	}
 	
