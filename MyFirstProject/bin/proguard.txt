@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.example.myfirstproject.MyFirstProjectActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.example.myfirstproject.TestImageListActivity { <init>(...); }
+
